@@ -1,5 +1,9 @@
 # pytorch-SIGUA
+<<<<<<< HEAD
 SIGUA (Stochastic Integrated Gradient Underweighted Ascent) is a robust optimization technique for training models in label noises. This method adopt gradient descent on good data as usual, and learning-rate-reduced gradient ascent on bad data (possibly noisy data).
+=======
+SIGUA (Stochastic Integrated Gradient Underweighted Ascent) is a robust optimization technique for training models in label noises. This method applies gradient descent on good data (possibly clean data) as usual, and learning-rate-reduced gradient ascent on bad data (possibly noisy data).
+>>>>>>> eb0d65803aa7fa26f4f5381cc0135425cc4936c6
 
 Paper: https://proceedings.icml.cc/static/paper_files/icml/2020/705-Paper.pdf
 
@@ -42,6 +46,7 @@ python main.py \
 | Sym (ε = 20%) 	|             98.3%              	|           -           	|          98.86%                   	|       98.91%                  	|
 | Sym (ε = 50%) 	|       94.3%     	|         -       	|            98.38%            	|          98.10%          	|
 
+<<<<<<< HEAD
 ### Experiments on TREC (Text)
 
 #### Performance results
@@ -56,3 +61,8 @@ python main.py \
 
 #### Contact
 Yeachan Kim (yeachan.kr@gmail.com)
+=======
+
+#### Contact
+Yeachan Kim (yeachan.kr@gmail.com)
+>>>>>>> eb0d65803aa7fa26f4f5381cc0135425cc4936c6
