@@ -34,8 +34,8 @@ flags.DEFINE_string('noise_type', 'sym', 'noise type (sym, asym), default: sym')
 
 # misc
 flags.DEFINE_bool('gpu', True, '')
-flags.DEFINE_string('run_mode', 'train', 'current mode (train, preprocess, eval)')
-flags.DEFINE_string('model', 'normal', 'training model type (sigua, normal), default: sigua')
+flags.DEFINE_string('run_mode', 'preprocess', 'current mode (train, preprocess, eval)')
+flags.DEFINE_string('model', 'sigua', 'training model type (sigua, normal), default: sigua')
 flags.DEFINE_string('save_dir', 'pretrained/', 'the path of directory for trained models')
 
 # 94.4
