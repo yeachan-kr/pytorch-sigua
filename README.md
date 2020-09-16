@@ -2,7 +2,7 @@
 
 SIGUA (Stochastic Integrated Gradient Underweighted Ascent) is a robust optimization technique for training models in label noises. This method applies gradient descent on good data (possibly clean data) as usual, and learning-rate-reduced gradient ascent on bad data (possibly noisy data).
 
-Paper: https://proceedings.icml.cc/static/paper_files/icml/2020/705-Paper.pdf
+Paper: SIGUA: Forgetting May Make Learning with Noisy Labels More Robust (https://proceedings.icml.cc/static/paper_files/icml/2020/705-Paper.pdf)
 
 ### Usage
 0. Install requirements.txt
