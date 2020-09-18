@@ -49,7 +49,7 @@ python main.py \
 * num_gradual = 5
 * bad_weight = 0.001
 
-| Settings / Models   	| TextCNN (reproduce, standard) 	| TextCNN (reproduce, coteaching) 	| 
+| Settings / Models   	| TextCNN (reproduce, standard) 	| TextCNN (reproduce, SIGUA) 	| 
 |---------------------	|:-------------------------:	|:---------------------:	|
 | Sym (ε = 20%) 	|             80.36%              	|           84.45%          	|   
 | Sym (ε = 50%) 	|       41.9%     	|         80.79%       	|         
