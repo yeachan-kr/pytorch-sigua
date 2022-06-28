@@ -55,5 +55,5 @@ python main.py \
 | Sym (ε = 50%) 	|       41.9%     	|         80.79%       	|         
 
 
-#### Contact
-Yeachan Kim (yeachan.kr@gmail.com)
+#### Original code repository
+https://github.com/bhanML/SIGUA
